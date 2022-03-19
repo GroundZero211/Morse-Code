@@ -1,0 +1,7 @@
+function encrypt() {
+
+};
+
+function decrypt() {
+
+};
