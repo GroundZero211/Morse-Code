@@ -2,3 +2,55 @@ body {
     background-color: rgb(37, 35, 44);
     font-family: arial;
 }
+
+h2 {
+    color: #eee;
+}
+
+#output {
+    white-space: pre-wrap;
+    width: 500px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+textarea {
+    display: block;
+    color: #eee;
+    background-color:rgb(28, 25, 39);
+    margin: auto;
+    width: 60vh;
+    height: 40vh;
+}
+
+.button {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 5px;
+    text-align: center;
+    color: #eee;
+}
+
+div#button1 {
+    background-color: rgb(83, 82, 189);
+    margin: 10px auto 10px;
+    padding: 10px;
+}
+
+div#button2 {
+    background-color: rgb(100, 100, 139);
+    margin: auto;
+    padding: 10px;
+}
+
+#output {
+    color: #eee;
+    font-size: 2rem;
+    white-space: pre-wrap;
+    margin-top: 30px;
+}

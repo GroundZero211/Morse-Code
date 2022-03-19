@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Morse Code</title>
 </head>
 <body>
-    
+    <div class="container1">
+        <h2>Input</h2>
+        <textarea id='input-text'></textarea>
+        <div class='button'id="button1" onclick='encrypt()'>Text to Morse</div>
+        <div class='button'id="button2" onclick='decrypt()'>Morse to Text</div>
+        <h2>Output</h2>
+        <div id="output"></div>
+    </div>
 </body>
 </html>
