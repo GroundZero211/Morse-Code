@@ -17,6 +17,10 @@ var m_c = {
 var c_m = Object.assign(...Object.values(m_c).map((keys, i) => ({ [keys]: Object.keys(m_c)[i]})))
 
 function encrypt() {
+    if (document.getElementById('input-text').value.length == 0) {
+        alert('Empty');
+        return
+    };
     let plaintext = document.getElementById('input-text').value.toLowerCase();
     let ciphertext = '';
     for (let i = 0; i < plaintext.length; i++) {
@@ -28,6 +32,10 @@ function encrypt() {
 };
 
 function decrypt() {
+    if (document.getElementById('input-text').value.length == 0) {
+        alert('empty');
+        return
+    };
     let ciphertext = document.getElementById('input-text').value;
     let msplit = ciphertext.split(" ");
     let plaintext = '';
